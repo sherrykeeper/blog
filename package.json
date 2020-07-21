@@ -1,0 +1,36 @@
+{
+  "name": "MyBoke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.0",
+    "@vssue/vuepress-plugin-vssue": "^1.4.6",
+    "@vuepress/plugin-last-updated": "^1.5.2",
+    "bash": "0.0.1",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-kbd": "^2.0.0",
+    "markdown-it-mark": "^3.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-underline": "^1.0.1",
+    "moment": "^2.27.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "@vuepress/plugin-google-analytics": "^1.5.2",
+    "vuepress": "^1.5.2"
+  }
+}
